@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card">
-                        <img src="<?= base_url() ?>/foto1.jpeg" class="card-img-top" alt="...">
+                    <img src="<?= base_url() ?>/images/foto1.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Wujud Tanpa Suara</h5>
                             <p class="card-text">Rp 99.000</p>
@@ -46,50 +46,50 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img src="<?= base_url() ?>/foto2.jpeg" class="card-img-top" alt="...">
+                    <img src="<?= base_url() ?>images/foto2.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Malioboro</h5>
-                            <p class="card-text">Rp 78.000</p>
+                            <h5 class="card-title">Malioboro at midnight</h5>
+                            <p class="card-text">Rp 88.000</p>
                             <a href="#" class="btn btn-primary">Add to chart</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <img src="<?= base_url() ?>/images/3.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url() ?>images/foto3.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">House of Talles</h5>
+                            <h5 class="card-title">Harga Sebuah Percaya</h5>
+                            <p class="card-text">Rp 90.000</p>
+                            <a href="#" class="btn btn-primary">Add to chart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 pt-4">
+                    <div class="card">
+                        <img src="<?= base_url() ?>images/foto4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ayahu Bukan Pembohong</h5>
                             <p class="card-text">Rp 78.000</p>
                             <a href="#" class="btn btn-primary">Add to chart</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 pt-4">
                     <div class="card">
-                        <img src="<?= base_url() ?>/images/4.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url() ?>images/foto5.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">George Orwell</h5>
-                            <p class="card-text">Rp 78.000</p>
+                            <h5 class="card-title">Tinggal Dirumah Cahaya</h5>
+                            <p class="card-text">Rp 177.000</p>
                             <a href="#" class="btn btn-primary">Add to chart</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 pt-4">
                     <div class="card">
-                        <img src="<?= base_url() ?>/images/5.png" class="card-img-top" alt="...">
+                        <img src="<?= base_url() ?>images/foto6.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Kitab Kawin</h5>
-                            <p class="card-text">Rp 78.000</p>
-                            <a href="#" class="btn btn-primary">Add to chart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="<?= base_url() ?>/images/6.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Hanum & Rangga</h5>
-                            <p class="card-text">Rp 78.000</p>
+                            <h5 class="card-title">Pesan Trakhir</h5>
+                            <p class="card-text">Rp 150.000</p>
                             <a href="#" class="btn btn-primary">Add to chart</a>
                         </div>
                     </div>
@@ -97,6 +97,5 @@
             </div>
         </div>
     </div>
-
 </div>
-<?= $this->endSection() ?>
+<?= $this->endSection();?>
